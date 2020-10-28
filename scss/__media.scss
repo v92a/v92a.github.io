@@ -1,0 +1,133 @@
+/* Media Queries */
+
+// Screen Width <= 1280px
+@media (max-width: 1280px) {
+
+  .user-profile {
+    width: 490px;
+  }
+
+  .user-paragraph {
+    font-size: 16px;
+  }
+
+  .nav-item {
+    width: 150px;
+  }
+
+  .item-link {
+    font-size: 14px;
+  }
+}
+
+// Screen Width <= 768px
+@media (max-width: 768px) {
+
+  .wrapper {
+    height: 100%;
+  }
+
+  .user {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin-top: 0;
+    margin-bottom: 20px
+  }
+
+  .user-profile {
+    width: 420px;
+  }
+
+  .user-title {
+    text-align: center;
+    padding: 0 100px;
+    word-wrap: break-word;
+  }
+
+  .user-paragraph {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .offer-list {
+    padding: 0 45px;
+    font-size: 16px;
+  }
+
+  .p-profession, .p-smile, .p-write {
+    text-align: center;
+  }
+
+  .user-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    width: 200px;
+    margin: 10px 0;
+  }
+
+  .item-link {
+    font-size: 16px;
+  }
+
+  // .l-phone:after {
+  //   content: '+7 (925) 135-96-15';
+  // }
+
+  .user-avatar {
+    margin: 20px auto;
+  }
+
+  .user-img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+// Screen Width <= 576px
+@media (max-width: 576px) {
+
+  .user-profile {
+    max-width: 300px;
+  }
+
+  .user-title {
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .user-paragraph {
+    padding: 15px 15px;
+  }
+
+  .user-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    width: 300px;
+    margin: 10px 0;
+  }
+
+  // .l-phone:after {
+  //   content: '+7 (925) 135-96-15';
+  // }
+
+  .user-note {
+    text-align: center;
+  }
+
+  /*
+  .user-language, .language-toggle {
+    display: flex;
+    justify-content: center;
+  }
+  */
+
+}

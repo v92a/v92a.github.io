@@ -1,0 +1,39 @@
+/* Hover CSS */
+
+// VK Item & Link
+.i-vk:hover {
+  background-color: $vk-hover-color;
+  transition-duration: .3s;
+}
+.l-vk:hover {
+  color: $textlink-hover-color;
+  font-weight: bold;
+  transition-duration: .3s;
+}
+
+// Portfolio Item & Link
+.i-portfolio:hover {
+  background-color: $portfolio-hover-color;
+  transition-duration: .3s;
+}
+.l-portfolio:hover {
+  color: $textlink-hover-color;
+  font-weight: bold;
+  transition-duration: .3s;
+}
+
+// Phone Item & Link
+.i-phone:hover {
+  background-color: $phone-hover-color;
+  transition-duration: .3s;
+}
+.l-phone:hover {
+  color: $textlink-hover-color;
+  font-weight: bold;
+  transition-duration: .3s;
+}
+
+// Messengers Hover
+.telegram-link:hover, .whatsapp-link:hover, .viber-link:hover {
+  color: $messengers-hover-color;
+}

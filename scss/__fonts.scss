@@ -1,0 +1,37 @@
+/* Fonts CSS */
+
+// ROBOTO
+
+/* Roboto - Regular 400 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+/* Roboto - Bold 700 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+// LORA
+
+/* Lora - Regular 400 */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Lora-Regular.ttf') format('truetype');
+}
+
+/* Lora - Bold 700 */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Lora-Bold.ttf') format('truetype');
+}
