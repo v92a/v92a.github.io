@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitaly Anischenko | Portfolio O.o</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <!-- Main Styles  -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border-sizing: border-box;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #121212;
+      }
+
+      .text {
+        font-family: "Orbitron", sans-serif;
+        font-weight: 400;
+        color: #fff;
+        padding: 5px 0;
+      }
+
+      .greetings {
+        padding: 50px 0;
+        font-size: 24px;
+        color: #ccc;
+      }
+
+      .user {
+        color: #f00;
+      }
+
+      .age {
+        color: #0f0;
+      }
+
+      .year {
+        color: #0ff;
+      }
+
+      .whoami {
+        color: #ff0;
+      }
+
+      .subtext {
+        font-family: "Oxyen", sans-serif;
+        font-weight: 300;
+        color: #fff;
+        padding: 30px 0;
+      }
+
+      .homelink {
+        font-style: normal;
+        text-decoration: none;
+        color: #0ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2 class="text greetings">Greetings, Programms!</h2>
+      <p class="text"><span class="user">User:</span> Vitaly Anischenko</p>
+      <p class="text"><span class="age">Age:</span> <span id="age"></span> years old <span class="year">(1992)</span></p>
+      <p class="text">I'm a <span class="whoami">Web-Developer</span></p>
+      <em class="subtext">Sorry, but still no portfolio here... <a class="homelink" href="https://v92a.github.io">coming soon!<a></em>
+    </div>
+    <script>
+      let myAge = document.getElementById("age");
+
+      /* Yeah, I just copypasted from StackOverflow,
+      because I extremely want to sleep */
+
+      let today = new Date();
+      let dd = String(today.getDate()).padStart(2, "0");
+      let mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+      let yyyy = today.getFullYear();
+
+      today = yyyy + "-" + mm + "-" + dd;
+
+      myAge.innerHTML = yyyy - 1992; // Don't ask me why, pls..
+    </script>
+  </body>
+</html>
